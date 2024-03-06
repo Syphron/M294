@@ -16,6 +16,4 @@ export default {
   <button @click="count++">You clicked me {{ count }} times!</button>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -10,6 +10,7 @@ import Home from "@/pages/Home.vue";
 import StartupNameGenerator from "@/pages/StartupNameGenerator.vue";
 import InvestmentRechner from "@/pages/InvestmentRechner.vue";
 import Todo from './pages/Todo.vue';
+import NewFeed from './pages/NewFeed.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -19,6 +20,7 @@ const router = createRouter({
         { path: '/namegenerator', component: StartupNameGenerator },
         { path: '/investmentrechner', component: InvestmentRechner },
         { path: '/todo', component: Todo },
+        { path: '/newsfeed', component: NewFeed }
     ]
 });
 

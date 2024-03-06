@@ -84,21 +84,25 @@ const totalProfitLoss = computed(() => {
   </ul>
 </template>
 
-<style>
+<style scoped>
 :root {
   --input-height: 38px;
 }
+
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 80px
 }
+
 label {
   display: block;
   margin-bottom: 4px;
   font-size: 15px;
 }
+
 input {
   padding: 4px;
   height: var(--input-height);
@@ -107,6 +111,7 @@ input {
   border-radius: 4px;
   width: 100%;
 }
+
 button {
   appearance: none;
   background: #3861fb;
@@ -116,49 +121,62 @@ button {
   border: none;
   border-radius: 4px;
 }
+
 .box {
   background: #f0f0f0;
   padding: 20px;
   border-radius: 4px;
 }
-.box + .box {
+
+.box+.box {
   margin-top: 20px;
 }
+
 .investment-form {
   margin-top: 40px;
 }
+
 .investment-form h3 {
   margin-top: 0;
 }
+
 .flex {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   gap: 20px;
 }
+
 .flex-1 {
   flex: 1;
 }
+
 dl {
   margin: 0;
 }
+
 dt {
   font-weight: bold;
   font-size: 15px;
 }
+
 dt:not(:first-child) {
   margin-top: 20px;
 }
+
 dd {
   margin: 4px 0 0;
 }
+
 ul {
   margin: 0;
   list-style: none;
 }
+
 li {
   padding: 8px 0;
 }
+
 li:not(:last-child) {
   border-bottom: 1px solid #e0e0e0;
 }

@@ -12,6 +12,7 @@
     <router-link to="/namegenerator">Name Generator (Aufgabe 2)</router-link>
     <router-link to="/investmentrechner">Investment Rechner (Aufgabe 3)</router-link>
     <router-link to="/todo">ToDo (Aufgabe 4)</router-link>
+    <router-link to="/newsfeed">Components (Aufgabe 5)</router-link>
   </div>
 
 </template>

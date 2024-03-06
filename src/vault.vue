@@ -40,7 +40,7 @@ function sendEmit() {
 
 <template>
 
-  <h1>{{text}}</h1>
+  <h1>{{ text }}</h1>
   <div v-if="number > 0">
     <p>Number is greater than 0</p>
   </div>
@@ -55,8 +55,8 @@ function sendEmit() {
     <button @click="submit">Klick</button>
     <button @click="change">Change textRef value</button>
     <button @click="increase">Change doublenumber value</button>
-    <h1>{{textRef}}</h1>
-    <h1>DoubleNumber = {{ doubleNumber}}</h1>
+    <h1>{{ textRef }}</h1>
+    <h1>DoubleNumber = {{ doubleNumber }}</h1>
   </div>
   <button @click="increase">test emit</button>
 </template>

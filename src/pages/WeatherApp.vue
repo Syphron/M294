@@ -1,9 +1,9 @@
 <script setup>
-import {ref, computed, watchEffect} from 'vue'
+import { ref, computed, watchEffect } from 'vue'
 
 const celsius = ref(10)
 
-const fahrenheit = computed(() => celsius.value * 9 / 5 + 32 )
+const fahrenheit = computed(() => celsius.value * 9 / 5 + 32)
 
 const kelvin = computed(() => celsius.value + 273.15)
 
@@ -53,21 +53,25 @@ const change = (amountNumber) => {
   </div>
 </template>
 
-<style>
+<style scoped>
 body {
   text-align: center;
 }
+
 .table {
   width: 320px;
   margin: 20px auto;
 }
+
 .table th {
   text-align: left;
 }
+
 .table td {
   text-align: right;
 }
-button + button {
+
+button+button {
   margin-left: 20px;
 }
 </style>
